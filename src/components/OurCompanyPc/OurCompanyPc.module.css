@@ -1,0 +1,957 @@
+.our-company-pc {
+  align-items: flex-start;
+  background-color: var(--coconut);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 6216px;
+  overflow: hidden;
+  position: relative;
+  width: 1728px;
+}
+
+.root{
+  align-items: flex-start;
+  background-color: var(--coconut);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.rectangle1{
+  width: 100%;
+  height: 86px;
+  z-index: 1;
+  background-color: var(--coconut);
+
+  @media (max-width: 992px){
+    height: 72px;
+  }
+}
+
+.frame98{
+  width: 100%;
+  height: 1000px;
+  z-index: 5;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--zumthor);
+
+  @media (max-width: 1300px){
+    height: unset;
+  }
+}
+
+.overlapGroup2{
+  width: 100%;
+  height: 665px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+
+  @media (max-width: 1300px){
+    height: unset;
+  }
+}
+
+.overlapGroup1{
+  width: 100%;
+  height: 590px;
+
+  @media (max-width: 1300px){
+    height: unset;
+  }
+}
+
+.landingContentFlex{
+  max-width: 1728px;
+  width: 100%;
+  padding: 0 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+
+  @media (max-width: 1300px){
+    padding: 100px 100px 200px;
+  }
+
+  @media (max-width: 600px){
+    padding: 95px 24px 40px;
+  }
+}
+
+.landingHeaderFlex{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: 768px){
+    width: 400px;
+  }
+
+  @media (max-width: 480px){
+    width: 300px;
+  }
+}
+
+.title{
+  color: var(--astronaut);
+  font-family: var(--font-family-manrope);
+  font-size: 56px;
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 28px;
+  }
+}
+
+.committedToExcellence{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxl);
+  font-weight: 800;
+  font-style: normal;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 24px;
+    margin-bottom: 111px;
+    max-width: 195px;
+  }
+}
+
+.landingParagraphFlex{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-top: 20px;
+
+  @media (max-width: 768px){
+    flex-direction: column;
+  }
+
+  @media (max-width: 600px){
+    gap: 12px;
+    margin-top: 0px;
+  }
+}
+
+.atTheDebtReliefC{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  text-align: justify;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    width: 100%;
+  }
+}
+
+.span12{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0;
+}
+
+.Personalized {
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 10px;
+  min-height: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 20px;
+    min-height: unset;
+    margin: 0;
+  }
+}
+
+.weTakeGreatPride{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  text-align: justify;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    width: 100%;
+  }
+}
+
+.group8{
+  width: auto;
+  height: auto;
+  max-width: 722px;
+  bottom: -180px;
+  right: 10%;
+  position: absolute;
+  z-index: -1;
+
+  @media (max-width: 1400px){
+    max-width: 35%;
+    transform: translateY(-5%);
+  }
+
+  @media (max-width: 1300px){
+    max-width: 35%;
+    transform: translateY(0);
+    bottom: 100px;
+  }
+
+  @media (max-width: 600px){
+    bottom: unset;
+    top: 32px;
+    max-width: 312px;
+    width: 100%;
+  }
+}
+
+.frame981{
+  width: 100%;
+  height: 1117px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--coconut);
+  max-width: 1170px;
+  margin: 0 auto;
+
+  @media (max-width: 1300px){
+    flex-wrap: wrap;
+    padding: 222px 100px 193px;
+    height: auto;
+  }
+
+  @media (max-width: 768px){
+    flex-direction: column;
+  }
+
+  @media (max-width: 600px){
+    padding: 40px 24px;
+  }
+}
+
+.theTeam{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxl);
+  font-weight: 800;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 659px;
+  margin-top: 4px;
+  min-width: 225px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+@media (max-width:1300px) {
+  .theTeam{
+    width: 100%;
+    min-height: unset;
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width:600px) {
+  .theTeam{
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.frame96{
+  width: 400px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 659px;
+  gap: 40px;
+
+  @media (max-width: 1300px){
+    margin-left: 0;
+    margin-bottom: 48px;
+  }
+
+  @media (max-width: 768px){
+    margin-left: 0;
+  }
+
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+    gap: 24px;
+  }
+}
+
+.frame91{
+  width: 401px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 443px;
+  gap: 24px;
+
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.photo{
+  @media (max-width: 600px){
+    width: 96px;
+    height: 96px;
+    margin-right: 12px;
+  }
+}
+
+.frame93{
+  width: 126px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 59px;
+  gap: 4px;
+
+  @media (max-width: 600px){
+    display: none;
+  }
+}
+
+.frame93Mobile{
+  width: 126px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 59px;
+  gap: 4px;
+
+  @media (max-width: 600px){
+    display: flex;
+  }
+}
+
+.adamSelita{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+  margin-top: -1px;
+  min-height: 33px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 20px;
+    min-height: unset;
+    margin: 0;
+  }
+}
+
+.ceo{
+  color: var(--new-car);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+  min-height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 16px;
+    min-height: unset;
+  }
+}
+
+.frame92{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 443px;
+  gap: 24px;
+
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.flexWrap{
+  display: flex;
+  align-items: flex-end;
+}
+
+.frame94{
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 59px;
+  gap: 4px;
+
+  @media (max-width: 600px){
+    display: none;
+  }
+}
+
+.frame94Mobile{
+  width: 140px;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 59px;
+  gap: 4px;
+
+  @media (max-width: 600px){
+    display: flex;
+  }
+}
+
+.frame111{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 360px;
+  gap: 12px;
+
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.adamSelitaAkaAda{
+  width: 400px;
+  margin-top: -1px;
+  min-height: 48px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.adamReceivedBach{
+  width: 400px;
+  min-height: 120px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.adamHelpedCloseFa{
+  width: 400px;
+  min-height: 168px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.frame95{
+  width: 401px;
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 659px;
+  gap: 40px;
+  @media (max-width: 1300px){
+    margin-bottom: 48px;
+  }
+  @media (max-width: 768px){
+    margin-left: 0;
+  }
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+    gap: 24px;
+  }
+}
+
+
+@media (max-width:1300px) {
+  .frame95{
+    margin-bottom: 48px;
+  }
+}
+
+@media (max-width:768px) {
+  .frame95{
+    min-height: unset;
+    width: 100%;
+    gap: 24px;
+  }
+}
+
+@media (max-width:600px) {
+  .frame95{
+    margin-left: 0;
+  }
+}
+
+.frame110{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 401px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 360px;
+  gap: 12px;
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.dinoSelitaIsANat{
+  width: 401px;
+  margin-top: -1px;
+  min-height: 48px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.dinoGraduatedFrom{
+  width: 401px;
+  min-height: 168px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.moreRecentlyDinoH{
+  width: 401px;
+  min-height: 120px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.overlapGroup4{
+  height: 1117px;
+  z-index: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 56px;
+  background-color: var(--zumthor);
+
+  @media (max-width: 1300px){
+    padding: 222px 100px 241px;
+    height: auto;
+    flex-direction: column-reverse;
+  }
+
+  @media (max-width: 600px){
+    padding: 77px 24px 50px;
+    gap: 36px;
+  }
+}
+
+.img35083{
+  max-width: 736px;
+  width: 50%;
+  height: 555px;
+  margin-bottom: 0.14px;
+  object-fit: cover;
+
+  @media (max-width: 1300px){
+    width: 100%;
+    height: auto;
+  }
+}
+
+.group1Duck{
+  @media (max-width: 600px){
+    width: 149px;
+  }
+}
+
+.frame128{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 555px;
+  gap: 32px;
+
+  @media (max-width: 1300px){
+    min-height: unset;
+    max-width: 736px;
+    width: 100%;
+  }
+}
+
+.frame127{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 129px;
+  gap: 24px;
+
+  @media (max-width: 1300px){
+    width: 100%;
+    min-height: unset;
+  }
+
+  @media (max-width: 600px){
+    gap: 16px;
+  }
+}
+
+.loremIpsumDolorSi{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  min-height: 72px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+
+  @media (max-width: 1300px){
+    width: 100%;
+    min-height: unset;
+  }
+}
+
+.frame100{
+  width: 100%;
+  height: 800px;
+  z-index: 6;
+  display: flex;
+  padding: 164.8px;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: var(--sauvignon);
+  position: relative;
+
+  @media (max-width: 1300px){
+    height: unset;
+    padding: 164px 100px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 600px){
+    padding: 152px 24px 56px;
+  }
+}
+
+.whyDidTheDebtReliefCoFrom{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxl);
+  font-weight: 800;
+  font-style: normal;
+  width: 440px;
+  min-height: 132px;
+  align-self: flex-start;
+  margin-top: 77.16px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 1300px){
+    margin-top: 0;
+    margin-bottom: 100px;
+    min-height: unset;
+  }
+
+  @media (max-width: 768px){
+    width: calc(100% - 190px);
+  }
+
+  @media (max-width: 600px){
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.frame101{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  margin-left: 82px;
+  margin-bottom: 0.16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 380px;
+  gap: 12px;
+
+  @media (max-width: 1300px){
+    margin-left: 0;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  @media (max-width: 600px){
+    max-width: 100%;
+    min-height: unset;
+  }
+}
+
+.theDebtReliefComp{
+  width: 400px;
+  margin-top: -1px;
+  min-height: 264px;
+  text-align: justify;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    max-width: 100%;
+    width: 100%;
+    min-height: unset;
+  }
+}
+
+.althoughTheRoadTo{
+  width: 400px;
+  min-height: 288px;
+  text-align: justify;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    max-width: 100%;
+    width: 100%;
+    min-height: unset;
+  }
+}
+
+.ourCompanyStrives{
+  width: 400px;
+  min-height: 120px;
+  text-align: justify;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    max-width: 100%;
+    width: 100%;
+    min-height: unset;
+  }
+}
+
+.group1{
+  max-width: 230px;
+  width: 25%;
+  max-height: 292px;
+  margin-left: 80px;
+
+  @media (max-width: 1300px){
+    position: absolute;
+    top: 64px;
+    right: 100px;
+    margin-left: 0;
+  }
+
+  @media (max-width: 900px){
+    width: 127px;
+    height: auto;
+    top: 144px;
+    right: 100px;
+  }
+
+  @media (max-width: 600px){
+    right: 24px;
+    top: 77px;
+  }
+}
+
+.overlapGroup3{
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.frame104{
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  padding: 290px 0px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 72px;
+  background-color: var(--coconut);
+
+  @media (max-width: 1300px){
+    padding: 290px 100px;
+    height: unset;
+  }
+
+  @media (max-width: 1200px){
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 600px){
+    padding: 67px 24px 48px;
+    gap: 32px;
+  }
+}
+
+.palm{
+  @media (max-width: 600px){
+    max-width: 200px;
+  }
+}
+
+.frame102{
+  width: 400px;
+  align-self: flex-end;
+  margin-bottom: 49.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 260px;
+  gap: 8px;
+
+  @media (max-width: 1200px){
+    min-heigt: unset;
+    margin-bottom: 0;
+    align-self: unset;
+  }
+
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.theDrcMissionStatement{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxl);
+  font-weight: 800;
+  font-style: normal;
+  width: 400px;
+  margin-top: -1px;
+  min-height: 70px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 24px;
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.firstAndForemost{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  min-height: 120px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    min-height: unset;
+    width: 100%;
+  }
+}
+
+.frame129{
+  display: none;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 14%;
+  right: 5px;
+  z-index: 1300;
+
+  @media (max-width: 768px){
+    display: flex;
+  }
+}

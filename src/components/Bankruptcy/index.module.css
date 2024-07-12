@@ -1,0 +1,266 @@
+.root{
+  align-items: center;
+  background-color: var(--coconut);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.section1{
+  width: 100%;
+  background: var(--white);
+}
+
+.content{
+  width: 100%;
+  max-width: 1728px;
+  margin: 0 auto;
+}
+
+.section1Content{
+  padding: 246px 232px 245px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 58px;
+
+  @media (max-width: 1300px){
+    padding: 246px 100px 245px;
+  }
+
+  @media (max-width: 1024px){
+    flex-direction: column;
+    padding: 35px 100px 245px;
+  }
+
+  @media (max-width: 600px){
+    padding: 35px 24px 73px;
+    gap: 24px;
+  }
+}
+
+.textContent{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  @media (max-width: 600px){
+    width: 100%;
+    gap: 16px;
+  }
+}
+
+.title{
+  color: var(--black-blue);
+  font-family: var(--font-family-manrope);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 24px;
+  }
+}
+
+.texts{
+  gap: 32px;
+  display: flex;
+
+  @media (max-width: 1024px){
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  @media (max-width: 600px){
+    gap: 16px;
+    width: 100%;
+  }
+}
+
+.text{
+  flex: 1;
+  max-width: 400px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 600px){
+    gap: 16px;
+    max-width: 100%;
+  }
+}
+
+.textParagraph{
+  color: var(--black-blue);
+  font-family: var(--font-family-manrope);
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.16px;
+}
+
+.cocktailImage{
+  transform: translateY(70px);
+
+  @media (max-width: 1024px){
+    transform: none;
+    max-width: 153px;
+    height: auto;
+  }
+
+  @media (max-width: 600px){
+    max-width: 73px;
+  }
+}
+
+.section2{
+  width: 100%;
+  background: rgba(21, 70, 197, 0.05);
+}
+
+.section2Content{
+  padding: 245px 116px 244px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 24px;
+
+  @media (max-width: 1300px){
+    padding: 245px 100px 244px;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 1024px){
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 245px 100px 58px;
+  }
+
+  @media (max-width: 600px){
+    padding: 80px 24px 58px;
+    gap: 20px;
+  }
+}
+
+.textContentSection2{
+  max-width: 440px;
+
+  @media (max-width: 600px){
+    max-width: 100%;
+  }
+}
+
+.hammockImage{
+  transform: translateY(227px);
+
+  @media (max-width: 1300px){
+    max-width: 50%;
+  }
+
+  @media (max-width: 1024px){
+    transform: none;
+  }
+
+  @media (max-width: 768px){
+    max-width: 100%;
+  }
+}
+
+.section3{
+  width: 100%;
+  background: var(--sauvignon);
+  position: relative;
+}
+
+.section3Content{
+  padding: 211px 232px 198px 149px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 58px;
+
+  @media (max-width: 1550px){
+    padding: 211px 116px 50px 116px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  @media (max-width: 1300px){
+    padding: 211px 100px 50px 100px;
+  }
+
+  @media (max-width: 600px){
+    padding: 80px 24px 30px 24px;
+    gap: 50px;
+  }
+}
+
+.icecreamImage{
+  transform: rotate(-19.628deg);
+
+  @media (max-width: 1550px){
+    width: 84px;
+    height: auto;
+    transform: rotate(-19.628deg) translateX(-50%);
+  }
+
+  @media (max-width: 600px){
+    transform: rotate(-19.628deg);
+  }
+}
+
+.titleSection3{
+  max-width: 832px;
+}
+
+.textLongSection3{
+  max-width: 832px;
+  margin-bottom: 56px;
+
+  @media (max-width: 600px){
+    margin-bottom: 16px;
+  }
+}
+
+.textContentSection3{
+  gap: 16px;
+}
+
+.list{
+  width: 100%;
+  max-width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 58px;
+
+  @media (max-width: 600px){
+    gap: 32px;
+  }
+}
+
+.listItem{
+  max-width: 400px;
+
+  @media (max-width: 600px){
+    max-width: 100%;
+  }
+}
+
+.frame129{
+  display: none;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 14%;
+  right: 5px;
+  z-index: 1300;
+
+  @media (max-width: 768px){
+    display: flex;
+  }
+}

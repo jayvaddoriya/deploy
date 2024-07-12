@@ -1,0 +1,108 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"); */
+@import url("https://fonts.googleapis.com/css?family=Manrope:400,700,500,600,800|Inter:400");
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+/* @import url("https://px.animaapp.com/63cef01ebf69dfda25cde677.63cef01ea87757bda6e35903.jFJzdWx.rcp.png"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --astronaut: #2a3972;
+  --black: #000000;
+  --blaze-orange: #ff5b0d;
+  --chicago: #585858;
+  --coconut: #fefefe;
+  --gravel: #4a4a4a;
+  --blue: #1546C5;
+  --black-blue: #0B142F;
+  --international-orange: #ff5a0c;
+  --midnight: #0a142e;
+  --mystic: #e4e9f8;
+  --new-car: #1446c4;
+  --sauvignon: #fff7f2;
+  --tundora: #464140;
+  --white: #ffffff;
+  --zumthor: #ecf1ff;
+  --grey-dark: #292929;
+
+  --font-size-l: 20px;
+  --font-size-m: 16px;
+  --font-size-s: 15px;
+  --font-size-xl: 24px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 32px;
+  --font-size-xxxl: 48px;
+
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-manrope: "Manrope", Helvetica;
+}
+
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+.grow:active {
+  transform: scale(1.0);
+  transition: all .1s ease-in-out;
+}
+
+
+.clone {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 300px;
+  position: relative;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.inputLabel {
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  color: var(--black);
+  margin-bottom: 8px;
+}
+
+.prose p {
+  margin-top: 20px;
+}

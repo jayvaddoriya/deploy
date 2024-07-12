@@ -1,0 +1,12 @@
+.macbook-pro-16-30 {
+  align-items: flex-start;
+  background-color: var(--coconut);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1117px;
+  overflow: hidden;
+  position: relative;
+  width: 1728px;
+}
+

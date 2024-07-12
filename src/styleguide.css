@@ -1,0 +1,27 @@
+:root { 
+  --astronaut: #2a3972;
+  --black: #000000;
+  --blaze-orange: #ff5b0d;
+  --chicago: #585858;
+  --coconut: #fefefe;
+  --gravel: #4a4a4a;
+  --international-orange: #ff5a0c;
+  --midnight: #0a142e;
+  --mystic: #e4e9f8;
+  --new-car: #1446c4;
+  --sauvignon: #fff7f2;
+  --tundora: #464140;
+  --white: #ffffff;
+  --zumthor: #ecf1ff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 16px;
+  --font-size-s: 15px;
+  --font-size-xl: 24px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 32px;
+  --font-size-xxxl: 48px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-manrope: "Manrope", Helvetica;
+}

@@ -1,0 +1,118 @@
+.menu-mobile {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  gap: 66px;
+  height: 640px;
+  position: relative;
+  width: 100%;
+}
+
+.root{
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 72px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 20px 50px #1546c533;
+  border-radius: 8px;
+}
+
+.frame5{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  gap: 40px;
+}
+
+.frame83{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.place{
+  color: var(--new-car);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.active{
+  color: var(--blue) !important;
+}
+
+.resources{
+  color: var(--new-car);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0;
+  line-height: normal;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.reviews{
+  olor: var(--new-car);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0;
+  line-height: normal;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.ellipse7{
+  width: 6px;
+  height: 6px;
+  background-color: var(--new-car);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.frame4{
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  width: 228px;
+  display: flex;
+  padding: 0px 6px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--international-orange);
+  border-radius: 8px;
+  box-shadow: 0px 20px 30px #f9874d99;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.bookAConsultation{
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  font-style: normal;
+  min-height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}

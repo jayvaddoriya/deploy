@@ -1,0 +1,1 @@
+export const FORM_SUBMIT_URL = 'https://bpyjxt9qi2.execute-api.us-east-1.amazonaws.com/prod/form'

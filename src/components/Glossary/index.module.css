@@ -1,0 +1,133 @@
+.root{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content{
+  width: 100%;
+  max-width: 1728px;
+  position: relative;
+  padding: 80px 232px 248px;
+
+  @media (max-width: 1550px){
+    padding: 80px 180px 248px;
+  }
+
+  @media (max-width: 1024px){
+    padding: 80px 100px 80px;
+  }
+
+  @media (max-width: 600px){
+    padding: 80px 24px 80px;
+  }
+}
+
+.list{
+  margin: 0 auto;
+  max-width: 832px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media (max-width: 1024px){
+    max-width: 100%;
+  }
+
+  @media (max-width: 600px){
+    gap: 32px;
+  }
+}
+
+.listItem{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title{
+  color: var(--black-blue);
+  font-family: var(--font-family-manrope);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 16px;
+  }
+}
+
+.description{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.cocktailImage{
+  position: absolute;
+  top: 147px;
+  left: 110px;
+
+  @media (max-width: 1550px){
+    left: 24px;
+  }
+
+  @media (max-width: 1024px){
+    display: none;
+  }
+}
+
+.tropicalImage{
+  position: absolute;
+  top: 38%;
+  right: 116px;
+
+  @media (max-width: 1550px){
+    right: 24px;
+  }
+
+  @media (max-width: 1024px){
+    display: none;
+  }
+}
+
+.starImage{
+  position: absolute;
+  top: 65%;
+  left: 128px;
+
+  @media (max-width: 1550px){
+    left: 24px;
+  }
+
+  @media (max-width: 1024px){
+    display: none;
+  }
+}
+
+.surfingImage{
+  position: absolute;
+  bottom: 25px;
+  right: 144px;
+
+  @media (max-width: 1550px){
+    right: 24px;
+  }
+
+  @media (max-width: 1024px){
+    position: static;
+    width: 173px;
+    height: auto;
+    margin-top: 104px;
+    margin-left: auto;
+  }
+}

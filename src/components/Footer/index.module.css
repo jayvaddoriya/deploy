@@ -1,0 +1,224 @@
+.root{
+  padding: 136px 220px 121px;
+  position: static;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: var(--tundora);
+  mix-blend-mode: normal;
+
+  @media (max-width: 1550px){
+    padding: 136px 100px 121px;
+  }
+
+  @media (max-width: 1024px){
+    padding: 72px 24px;
+  }
+}
+
+.root.android-small-6.android-small-6-1 {
+  z-index: 11;
+  margin-right: 2px;
+}
+
+.root.footer-1.footer-2 {
+  flex-shrink: 1;
+  margin-top: 7px;
+  margin-left: 1px;
+  position: unset;
+  top: unset;
+  left: unset;
+}
+
+.root.footer-1.footer-3 {
+  z-index: 2;
+  flex-shrink: 1;
+  position: unset;
+  top: unset;
+  left: unset;
+}
+
+.overlapGroup{
+  width: 100%;
+  max-width: 1728px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tundora);
+}
+
+.flexRow{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  @media (max-width: 1024px){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.logoDebtRelief1{
+  width: 152px;
+  height: 91px;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-bottom: 0;
+  transform: translateY(-25px);
+
+  @media (max-width: 1024px){
+    transform: none;
+    margin: 0 auto 56px;
+  }
+}
+
+.follow{
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.contact{
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  font-style: normal;
+  margin-top: -1px;
+  min-height: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 1280px){
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.contact div{
+  @media (max-width: 1280px){
+    display: none;
+  }
+}
+
+.linksGroup{
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+
+  @media (max-width: 1550px){
+    gap: 40px;
+  }
+
+  @media (max-width: 1200px){
+    gap: 10px;
+  }
+
+  @media (max-width: 1024px){
+    gap: 72px 20px;
+    flex-wrap: wrap;
+  }
+}
+
+.ourWebsite{
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s);
+  font-weight: 700;
+  font-style: normal;
+  width: 145px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 1024px){
+    width: calc(50% - 10px;)
+  }
+}
+
+.frame31{
+  width: 145px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 33px;
+
+  @media (max-width: 1024px){
+    width: calc(50% - 10px);
+  }
+}
+
+.divider{
+  width: 100%;
+  height: 2px;
+  align-self: center;
+  margin-top: 101px;
+  background-color: var(--white);
+  opacity: 0.15;
+
+  @media (max-width: 1024px){
+    margin-top: 72px;
+  }
+}
+
+.X2019AlyeskaResor{
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s);
+  font-weight: 600;
+  align-self: center;
+  margin-top: 34px;
+  margin-right: 1px;
+  opacity: 0.75;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 1024px){
+    margin-top: 56px;
+  }
+}
+
+.linksContainer{
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s);
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.link{
+  min-height: 20px;
+  opacity: 0.8;
+  letter-spacing: 0;
+  line-height: normal;
+  color: inherit;
+}
+
+.info{
+  width: 100%;
+}
+
+.logoSocialsGroup{
+  @media (max-width: 1024px){
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 56px;
+  }
+}

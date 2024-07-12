@@ -1,0 +1,877 @@
+.the-debt-relief-program {
+  align-items: flex-start;
+  background-color: var(--coconut);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 3983px;
+  overflow: hidden;
+  position: relative;
+  width: 1728px;
+}
+
+.root{
+  align-items: center;
+  background-color: var(--coconut);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.rectangle1{
+  width: 100%;
+  height: 86px;
+  z-index: 1;
+  background-color: var(--coconut);
+
+  @media (max-width: 992px){
+    height: 72px;
+  }
+}
+
+.frame98{
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  padding: 156.1px 0px;
+  margin-top: -15px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 140px;
+  background-color: var(--zumthor);
+
+  @media (max-width: 1200px){
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media (max-width: 600px){
+    gap: 56px;
+    padding: 90px 0px 50px;
+    margin: 0;
+  }
+}
+
+.group{
+  width: 400px;
+  height: 644px;
+  margin-left: 8px;
+}
+
+.flexCol{
+  width: 508px;
+  margin-bottom: 51.95px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 405px;
+  gap: 17px;
+
+  @media (max-width: 1200px){
+    width: 100%;
+    max-width: 650px;
+    min-height: unset;
+    margin-bottom: 0;
+    padding: 0 24px;
+  }
+}
+
+.frame138{
+  width: 508px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 292px;
+  gap: 8px;
+
+  @media (max-width: 1200px){
+    width: 100%;
+    max-width: 650px;
+    min-height: unset;
+  }
+}
+
+.title{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: 56px;
+  font-weight: 800;
+  font-style: normal;
+  width: 508px;
+  margin-top: -1px;
+  min-height: 152px;
+  letter-spacing: -0.56px;
+  line-height: normal;
+
+  @media (max-width: 1200px){
+    width: 100%;
+    max-width: 650px;
+    min-height: unset;
+  }
+
+  @media (max-width: 600px){
+    font-size: 24px;
+  }
+}
+
+.getOutFromDebtForGood{
+  color: var(--new-car);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  font-style: normal;
+  width: 400px;
+  min-height: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 1200px){
+    width: 100%;
+    max-width: 650px;
+    min-height: unset;
+  }
+
+  @media (max-width: 600px){
+    font-size: 16px;
+  }
+}
+
+.simplifyYourFinanc{
+  color: var(--gravel);
+  font-family: var(--font-family-inter);
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  min-height: 96px;
+  text-align: justify;
+  letter-spacing: 0.18px;
+  line-height: 24px;
+
+  @media (max-width: 1200px){
+    width: 100%;
+    max-width: 650px;
+    min-height: unset;
+  }
+
+  @media (max-width: 600px){
+    font-size: 16px;
+  }
+}
+
+.group1Image{
+  @media (max-width: 600px){
+    max-width: 180px;
+  }
+}
+
+.frame142{
+  width: 100%;
+  height: auto;
+  z-index: 5;
+  display: flex;
+  padding: 185px 0px;
+  align-items: center;
+  justify-content: center;
+  gap: 62px;
+  background-color: var(--coconut);
+
+  @media (max-width: 600px){
+    padding: 115px 0px 71px;
+  }
+}
+
+.frameContainer{
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 536px;
+  gap: 64px;
+  margin-left: 50px;
+
+  @media (max-width: 1200px){
+    display: none;
+  }
+}
+
+.frameContainerMobile{
+  margin-top: 27px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 536px;
+  gap: 64px;
+  padding: 0 50px;
+  position: relative;
+
+  @media (max-width: 1200px){
+    display: flex;
+  }
+
+  @media (max-width: 600px){
+    padding: 0 0 0 23px;
+    width: calc(100% - 48px);
+    gap: 34px;
+  }
+}
+
+.frameContainerMobile::before{
+  content: '';
+  height: calc(100% + 72px + 56px);
+  width: 3px;
+  background: #E4E9F8;
+  position: absolute;
+  left: 0;
+  top: -72px;
+  display: block;
+}
+
+.mobileDot{
+  position: relative;
+
+  @media (max-width: 600px){
+    width: 100%;
+    max-width: unset;
+  }
+}
+
+.mobileDot::before{
+  content: '';
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #E4E9F8;
+  position: absolute;
+  display: block;
+  left: -57px;
+  top: 12px;
+}
+
+@media (max-width: 600px){
+  .mobileDot::before{
+    left: -30px;
+    top: 8px;
+  }
+}
+
+.frame40{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 176px;
+  gap: 15px;
+
+  @media (max-width: 600px){
+    width: 100%;
+    max-width: unset;
+    min-height: unset;
+  }
+}
+
+.frame141{
+  display: flex;
+  align-items: center;
+  min-width: 258px;
+  gap: 8px;
+}
+
+.iconoPc1{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 2px 14px;
+  align-items: flex-start;
+  background-color: var(--new-car);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 10px 30px #1546c533;
+
+  @media (max-width: 600px){
+    width: 32px;
+    height: 32px;
+    padding: 2px 9px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.number{
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+  min-height: 33px;
+  min-width: 11px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 20px;
+    min-height: unset;
+    min-width: unset;
+  }
+}
+
+.freeConsultation{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+  min-height: 33px;
+  margin-bottom: 2px;
+  min-width: 210px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 16px;
+    min-height: unset;
+    min-width: unset;
+  }
+}
+
+.weProvideAFreeAn{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  min-height: 120px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    width: 100%;
+    max-width: unset;
+    min-height: unset;
+  }
+}
+
+.frame1421{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 296px;
+  gap: 15px;
+
+  @media (max-width: 600px){
+    width: 100%;
+    max-width: unset;
+    min-height: unset;
+  }
+}
+
+.frame1411{
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 398px;
+  gap: 8px;
+
+  @media (max-width: 600px){
+    height: unset;
+    min-width: unset;
+  }
+}
+
+.eliminatingHighInterestDebt{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+  min-height: 33px;
+  margin-bottom: 2px;
+  min-width: 350px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 16px;
+    min-height: unset;
+    min-width: unset;
+  }
+}
+
+.weContractYourCred{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  min-height: 240px;
+  text-align: justify;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    width: 100%;
+    max-width: unset;
+    min-height: unset;
+  }
+}
+
+.overlapGroup1{
+  width: 16px;
+  height: 696px;
+  position: relative;
+  align-self: flex-end;
+
+  @media (max-width: 1200px){
+    display: none;
+  }
+}
+
+.vector5{
+  position: absolute;
+  width: 1px;
+  height: 696px;
+  top: 0;
+  left: 8px;
+}
+
+.group11{
+  position: absolute;
+  width: 16px;
+  height: 376px;
+  top: 80px;
+  left: 0;
+}
+
+.flexCol1{
+  width: 50%;
+  max-width: 508px;
+  margin-bottom: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 640px;
+
+  @media (max-width: 1200px){
+    display: none;
+  }
+}
+
+.group1{
+  width: 184px;
+  height: 178px;
+  align-self: flex-end;
+
+  @media (max-width: 1200px){
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translatey(calc(-100% + 40px));
+  }
+
+  @media (max-width: 600px){
+    width: 96px;
+    height: auto;
+    right: 0;
+    top: 0;
+    transform: translatey(calc(-100% + 11px));
+  }
+}
+
+.frame1412{
+  width: 400px;
+  margin-top: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 152px;
+  gap: 15px;
+
+  @media (max-width: 600px){
+    width: 100%;
+    max-width: unset;
+    min-height: unset;
+  }
+}
+
+.frame1413{
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 326px;
+  gap: 8px;
+
+  @media (max-width: 600px){
+    height: unset;
+    min-width: unset;
+  }
+}
+
+.enrollingInTheProgram{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+  min-height: 33px;
+  margin-bottom: 2px;
+  min-width: 278px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 16px;
+    min-height: unset;
+    min-width: unset;
+  }
+}
+
+.onceYouAreApproved{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 396px;
+  min-height: 96px;
+  text-align: justify;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    width: 100%;
+    max-width: unset;
+    min-height: unset;
+  }
+}
+
+.frame143{
+  width: 400px;
+  margin-top: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 200px;
+  gap: 15px;
+
+  @media (max-width: 1200px){
+    margin-top: 0;
+  }
+
+  @media (max-width: 600px){
+    width: 100%;
+    max-width: unset;
+    min-height: unset;
+  }
+}
+
+.frame1414{
+  height: 40px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 259px;
+  gap: 8px;
+
+  @media (max-width: 600px){
+    height: unset;
+    min-width: unset;
+  }
+}
+
+.financialFreedom{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+  min-height: 33px;
+  margin-bottom: 2px;
+  min-width: 211px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 600px){
+    font-size: 16px;
+    min-height: unset;
+    min-width: unset;
+  }
+}
+
+.onceYouBecomeDebt{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 400px;
+  min-height: 144px;
+  text-align: justify;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    width: 100%;
+    max-width: unset;
+    min-height: unset;
+  }
+}
+
+.frame100{
+  width: 100%;
+  height: 1117px;
+  z-index: 4;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 158px 50px;
+  align-items: center;
+  background-color: var(--sauvignon);
+
+  @media (max-width: 1200px){
+    height: auto;
+  }
+
+  @media (max-width: 600px){
+    padding: 152px 24px 63px;
+  }
+}
+
+@media (max-width: 1200px){
+  .frame100 {
+    height: auto;
+  }
+}
+
+@media (max-width: 600px){
+  .frame100 {
+    padding: 152px 24px 63px;
+  }
+}
+
+.differentContainer{
+  width: 100%;
+  max-width: 1000px;
+  height: 1117px;
+  z-index: 4;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @media (max-width: 1200px){
+    height: auto;
+  }
+}
+
+.group3{
+  @media (max-width: 768px){
+    max-width: 85px;
+    height: auto;
+  }
+
+  @media (max-width: 600px){
+    position: absolute;
+    right: 16px;
+    top: 0;
+    transform: translateY(-120px);
+  }
+
+  @media (max-width: 500px){
+    transform: translateY(-100px);
+  }
+
+  @media (max-width: 350px){
+    transform: translateY(-140px);
+    right: 0px;
+  }
+}
+
+.flexRow{
+  display: flex;
+  align-items: flex-start;
+  min-width: 620px;
+  gap: 48px;
+
+  @media (max-width: 1200px){
+    flex-direction: row-reverse;
+  }
+
+  @media (max-width: 768px){
+    min-width: unset;
+  }
+
+  @media (max-width: 600px){
+    gap: 0;
+    position: relative;
+  }
+}
+
+.frame401{
+  width: 400px;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 292px;
+  gap: 16px;
+
+  @media (max-width: 600px){
+    width: 100%;
+    min-height: unset;
+  }
+}
+
+.whatMakesUsDifferent{
+  color: var(--midnight);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxl);
+  font-weight: 700;
+  font-style: normal;
+  width: 336px;
+  margin-top: -1px;
+  min-height: 132px;
+  letter-spacing: 0;
+  line-height: normal;
+
+  @media (max-width: 1200px){
+    width: 400px;
+  }
+
+  @media (max-width: 600px){
+    width: 100%;
+    min-height: unset;
+    font-size: 28px;
+  }
+
+  @media (max-width: 500px){
+    max-width: 300px;
+  }
+}
+
+.frame402{
+  width: 336px;
+  position: relative;
+  align-self: flex-end;
+  margin-top: 94px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 220px;
+  gap: 17px;
+
+  @media (max-width: 1200px){
+    align-self: unset;
+    width: 400px;
+  }
+
+  @media (max-width: 600px){
+    width: 100%;
+    min-height: unset;
+    margin-top: 26px;
+    margin-bottom: 32px;
+  }
+}
+
+.frame381{
+  width: 100%;
+  height: 96px;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+
+  @media (max-width: 600px){
+    height: unset;
+  }
+}
+
+.frame381.frame-38.frame-38-1{
+  align-items: flex-start;
+  overflow: unset;
+}
+
+.frame381.frame-38.frame-38-6 {
+  height: 72px;
+  align-items: flex-start;
+  overflow: unset;
+}
+
+.greatCustomerServi{
+  color: var(--chicago);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  min-height: 192px;
+  margin-bottom: -95px;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+
+  @media (max-width: 600px){
+    min-height: unset;
+    margin-bottom: 0;
+  }
+}
+
+.frame281{
+  border: none;
+  min-height: 88px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: start;
+  width: fit-content;
+  padding: 10px 32px;
+  background-color: var(--international-orange);
+  border-radius: 8px;
+  box-shadow: 0px 20px 30px #f9874d99;
+
+  @media (max-width: 600px){
+    min-height: unset;
+    max-height: 56px;
+    height: 56px;
+  }
+}
+
+.getStarted{
+  color: var(--white);
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0;
+
+  @media (max-width: 600px){
+    font-size: 16px;
+  }
+}
+
+.frame129{
+  display: none;
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 14%;
+  right: 5px;
+  z-index: 1300;
+
+  @media (max-width: 768px){
+    display: flex;
+  }
+}
